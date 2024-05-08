@@ -1,0 +1,4 @@
+Bundle-Name: CustomBlueprintParameterContributorPortlet
+Bundle-SymbolicName: customblueprintparametercontributorportlet
+Bundle-Version: 1.0.0
+Export-Package: customblueprintparametercontributorportlet.constants

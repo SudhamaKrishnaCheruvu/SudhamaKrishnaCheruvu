@@ -1,0 +1,5 @@
+Bundle-Name: Pagination-Fix
+Bundle-SymbolicName: pagination.fix
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.portal.search.web;bundle-version="6.0.52"
+Portal-Bundle-Version: 7.4.13

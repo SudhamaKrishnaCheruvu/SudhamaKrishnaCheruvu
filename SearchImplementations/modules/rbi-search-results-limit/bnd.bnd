@@ -1,0 +1,4 @@
+Bundle-Name: rbi-search-results-limit
+Bundle-SymbolicName: com.rbi.search.results.limit
+Bundle-Version: 1.0.0
+Export-Package: com.rbi.search.results.limit.constants

@@ -1,0 +1,5 @@
+Bundle-Name: my-workflow-tasks-hook
+Bundle-SymbolicName: my.workflow.tasks.hook
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.portal.workflow.task.web;bundle-version="5.0.32"
+Portal-Bundle-Version: 7.4.13

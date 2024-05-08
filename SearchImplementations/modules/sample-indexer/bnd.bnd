@@ -1,0 +1,4 @@
+Bundle-Name: sample-indexer
+Bundle-SymbolicName: sample.indexer
+Bundle-Version: 1.0.0
+Export-Package: sample.indexer.constants

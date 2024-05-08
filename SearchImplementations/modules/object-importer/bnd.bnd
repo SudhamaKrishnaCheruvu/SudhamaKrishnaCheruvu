@@ -1,0 +1,4 @@
+Bundle-Name: liferay-demo-object-importer
+Bundle-SymbolicName: in.edelweiss.object.importer
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.object.importer.constants

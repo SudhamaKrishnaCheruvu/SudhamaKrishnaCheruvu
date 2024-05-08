@@ -1,0 +1,5 @@
+Bundle-Name: captcha-override-service
+Bundle-SymbolicName: com.liferay.captcha.simplecaptcha.override
+Bundle-Version: 1.0.0
+
+-export: *

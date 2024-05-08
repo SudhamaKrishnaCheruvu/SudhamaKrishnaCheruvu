@@ -1,0 +1,4 @@
+Bundle-Name: custom-date-facet
+Bundle-SymbolicName: com.liferay.custom.date.facet
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.custom.date.facet.constants

@@ -1,0 +1,5 @@
+Bundle-Name: search-criteria-contributor-web
+Bundle-SymbolicName: at.gv.magwien.apps.search.criteria.contributor.web
+Bundle-Version: 1.0.0
+Export-Package: at.gv.magwien.apps.search.criteria.contributor.web.constants
+-metatype: *

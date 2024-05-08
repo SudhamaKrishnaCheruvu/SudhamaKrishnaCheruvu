@@ -1,0 +1,47 @@
+Bundle-Name: custom-search-suggestion-web
+Bundle-SymbolicName: com.custom.search.suggestion
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.custom.search.suggestion.constants,\
+	com.custom.search.suggestion.conf,\
+	com.custom.search.suggestion.display.context.builder,\
+	com.custom.search.suggestion.util,\
+	com.custom.search.suggestion.helper,\
+	com.custom.search.suggestion.portlet
+
+Include-Resource: \
+   @elasticsearch-rest-high-level-client-7.17.9.jar,\
+   @elasticsearch-rest-client-7.17.9.jar,\
+   @hppc-0.8.1.jar,\
+   @elasticsearch-7.17.9.jar,\
+   @jackson-core-2.14.2.jar,\
+   @jopt-simple-5.0.2.jar,\
+   @jna-5.10.0.jar,\
+   @elasticsearch-x-content-7.17.9.jar,\
+   @elasticsearch-core-7.17.9.jar,\
+   @lucene-core-8.11.1.jar,\
+   @lang-mustache-client-7.17.9.jar,\
+   @mapper-extras-client-7.17.9.jar,\
+   @rank-eval-client-7.17.9.jar,\
+   @httpcore-nio-4.4.12.jar,\
+   @httpasyncclient-4.1.4.jar,\
+   @httpclient-4.5.10.jar,\
+   @jackson-dataformat-smile-2.14.2.jar,\
+   @jackson-dataformat-yaml-2.14.2.jar,\
+   @commons-logging-1.2.jar,\
+   @joda-time-2.10.10.jar,\
+   @jna-5.10.0.jar,\
+   @httpcore-4.4.12.jar,\
+   @log4j-api-2.17.1.jar,\
+   @lucene-analyzers-common-8.11.1.jar,\
+   @lucene-backward-codecs-8.11.1.jar,\
+   @lucene-queries-8.11.1.jar,\
+\
+
+
+
+Import-Package: *; version="0";resolution:=optional
+
+
+-fixupmessages "Classes found in the wrong directory"; restrict:=error; is:=warning
+

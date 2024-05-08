@@ -1,0 +1,4 @@
+Bundle-Name: groovyscript-check
+Bundle-SymbolicName: groovyscript.check
+Bundle-Version: 1.0.0
+Export-Package: groovyscript.check.constants

@@ -1,0 +1,26 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+
+	cssBuilder group: "com.liferay", name: "com.liferay.css.builder", version: "3.1.0"
+	// https://mvnrepository.com/artifact/org.elasticsearch.client/elasticsearch-rest-high-level-client
+//	implementation group: 'org.elasticsearch.client', name: 'elasticsearch-rest-high-level-client', version: '7.15.1'
+	// https://mvnrepository.com/artifact/org.elasticsearch.client/elasticsearch-rest-client
+
+	// https://mvnrepository.com/artifact/org.elasticsearch.client/elasticsearch-rest-high-level-client
+//	compileOnly group: 'org.elasticsearch.client', name: 'elasticsearch-rest-high-level-client', version: '7.8.1'
+	// Check GETTING_STARTED.markdown for information regarding usage.
+
+
+	compileOnly 'org.elasticsearch.client:elasticsearch-rest-high-level-client:7.17.9'
+	runtimeOnly 'org.elasticsearch.client:elasticsearch-rest-high-level-client:7.17.9'
+//	implementation 'org.elasticsearch.client:elasticsearch-rest-client:7.17.9'
+//	implementation 'org.elasticsearch.plugin:x-pack-core:7.17.9'
+
+	// https://mvnrepository.com/artifact/org.elasticsearch.client/elasticsearch-rest-client
+//	implementation group: 'org.elasticsearch.client', name: 'elasticsearch-rest-client', version: '6.1.0'
+
+}
+
+
+
+
